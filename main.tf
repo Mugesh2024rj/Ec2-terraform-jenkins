@@ -6,7 +6,7 @@ provider "aws" {
 
 # Security Group (default VPC)
 resource "aws_security_group" "ec2_sg" {
-  name        = "simple-ec2-sg"
+  name        = "Example-Ec2-auto"
   description = "Allow SSH, HTTP, HTTPS"
 
   ingress {
